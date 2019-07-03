@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import styled from 'styled-components'
-import Page from '../../../src/templates/page'
+import Page from '../../src/templates/page'
 
 export default props => {
   const DocumentList = styled.ul`
