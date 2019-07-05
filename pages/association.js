@@ -5,8 +5,7 @@ import styled from 'styled-components'
 import Page from '../../src/templates/page'
 
 export default props => {
-  const DocumentList = styled.ul`
-  `
+  const DocumentList = styled.ul``
 
   const documents = get(props, 'data.allContentfulDocument.edges').reduce((acc, doc) => {
     doc.node.category.forEach(category => {

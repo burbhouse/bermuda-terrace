@@ -13,15 +13,17 @@
   --color-page: var(--color-gray-light);
 
   --color-type-body: #373F49;
-  --color-type-h1: var(--color-brand-primary);
+  --color-type-h1: var(--color-white);
   --color-type-h2: var(--color-type-body);
   --color-type-h3: var(--color-type-body);
 
   --color-menu: var(--color-brand-secondary);
   --color-menu-link-primary: var(--color-brand-secondary);
-  --color-menu-link-primary-hover: var(--color-gray-dark);
-  --color-menu-link-secondary: var(--color-white);
+  --color-menu-link-primary-hover: var(--color-gray-light);
+  --color-menu-link-secondary: var(--color-gray-dark);
   --color-menu-link-secondary-hover: var(--color-brand-primary);
+  --color-menu-link-tertiary: var(--color-gray);
+  --color-menu-link-tertiary-hover: var(--color-gray-dark);
 
   --font-family-header: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
   --font-family-body: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
